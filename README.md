@@ -23,7 +23,8 @@
 
 ## 📲 Установка APK
 Скачать последнюю версию можно здесь:  
-👉 [Скачать APK](https://github.com/username/repo-name/releases/latest/download/app-debug.apk)
+👉 [Скачать APK](https://github.com/Zheentoro/sunmi-t2s-app/releases/download/v1.0.0/app-universal-release.apk)
+
 
 ---
 
@@ -31,5 +32,5 @@
 
 ### 1. Клонирование проекта
 ```bash
-git clone https://github.com/username/project-name.git
+git clone https://github.com/zheentoro/sunmi-t2s-app.git
 cd project-name
