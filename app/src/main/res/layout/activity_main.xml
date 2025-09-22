@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Название товара" />
+
+    <EditText
+        android:id="@+id/etProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цена"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etProductQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить товар"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProducts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Итого: 0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnPrintReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Печать чека"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
