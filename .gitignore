@@ -1,15 +1,45 @@
+# ========== Android/Gradle ==========
 *.iml
 .gradle
 /local.properties
+/.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# ========== IntelliJ / Android Studio ==========
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# ========== macOS ==========
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# ========== APK / Bundles ==========
+*.apk
+*.ap_
+*.aab
+
+# ========== Java / Kotlin ==========
+*.class
+*.dex
+*.jar
+*.war
+*.ear
+
+# ========== NDK ==========
+obj/
+
+# ========== Keystore ==========
+*.jks
+*.keystore
+
+# ========== Google Services ==========
+google-services.json
+
+# Generated code (Hilt, Room, KSP)
+build/generated/
