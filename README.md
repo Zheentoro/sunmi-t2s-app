@@ -21,15 +21,15 @@
 
 ---
 
+## 📲 Установка APK
+Скачать последнюю версию можно здесь:  
+👉 [Скачать APK](https://github.com/username/repo-name/releases/latest/download/app-debug.apk)
+
+---
+
 ## ⚙️ Сборка и запуск
 
 ### 1. Клонирование проекта
 ```bash
 git clone https://github.com/username/project-name.git
 cd project-name
-
----
-
-## 📲 Установка APK
-Скачать последнюю версию можно здесь:  
-👉 [Скачать APK](https://github.com/username/repo-name/releases/latest/download/app-debug.apk)
