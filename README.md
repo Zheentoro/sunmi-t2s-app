@@ -33,4 +33,4 @@
 ### 1. Клонирование проекта
 ```bash
 git clone https://github.com/zheentoro/sunmi-t2s-app.git
-cd project-name
+cd sunmi-t2s-app
